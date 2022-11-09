@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <video-player></video-player>
+    </title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="player">
+            <video id="video" poster="./images/WhatsApp Image 2022-10-19 at 5.41.36 PM (1).jpeg" width="400" src="./images/y2mate.com - Tainy J Balvin  Agua Music From Sponge On The Run Movie_v720P.mp4"></video>
+            <div class="player-overlay">
+                <h2 class="player-title"> Bob esponja</h2>
+                <div class="player-action">
+                    <button class="button" id="backward" aria-level="retroceder 10 sg" title="retroceder"></button>
+                    <button class="button" id="play" aria-level="reproducir" title="reproducir"></button>
+                    <button class="button" id="pause" aria-level="pause" title="pause"></button>
+                    <button class="button" id="forward" aria-level="adelantar 10 sg" title="adelantar"></button>
+                </div>
+                <div class="player-progress">
+                    <input id="progress" type="range" min="0" value="0" step="1">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="player-over"></div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
