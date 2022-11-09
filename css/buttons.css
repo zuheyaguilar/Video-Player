@@ -4,16 +4,18 @@
     border: none;
     background-color: transparent;
     background-repeat: no-repeat;
-    background-color: center;
+    background-position: center;
     cursor: pointer;
 
 }
 
--button:active{
+.button:active{
     transform: scale(0.9);
 }
+
 #play{
     background-image: url('../images/play.svg');
+
 }
 
 #pause{
@@ -26,4 +28,5 @@
 
 #forward{
     background-image: url('../images/+10.svg');
+
 }
